@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43815D25-7089-404B-BB9C-F070BC11BC6E} = {43815D25-7089-404B-BB9C-F070BC11BC6E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{43815D25-7089-404B-BB9C-F070BC11BC6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shaders", "_Shaders", "{223F6217-423E-4D5B-82C8-1FD31522502D}"
+	ProjectSection(SolutionItems) = preProject
+		_Shaders\Animation.hlsl = _Shaders\Animation.hlsl
+		_Shaders\CollisionShader.hlsl = _Shaders\CollisionShader.hlsl
+		_Shaders\MiniMap.hlsl = _Shaders\MiniMap.hlsl
+		_Shaders\Origin.hlsl = _Shaders\Origin.hlsl
+		_Shaders\TextureBlur.hlsl = _Shaders\TextureBlur.hlsl
+		_Shaders\TextureBlur2.hlsl = _Shaders\TextureBlur2.hlsl
+		_Shaders\TextureFilter.hlsl = _Shaders\TextureFilter.hlsl
+		_Shaders\VertexColor.hlsl = _Shaders\VertexColor.hlsl
+		_Shaders\VertexTexture.hlsl = _Shaders\VertexTexture.hlsl
+		_Shaders\VertexTextureOutLine.hlsl = _Shaders\VertexTextureOutLine.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{30AD4797-0049-47B7-AC92-DD9BA5BB66E1}"
+	ProjectSection(SolutionItems) = preProject
+		_Shaders\UI\ColorUI.hlsl = _Shaders\UI\ColorUI.hlsl
+		_Shaders\UI\TextureUI.hlsl = _Shaders\UI\TextureUI.hlsl
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tile", "Tile", "{05891E83-0198-4CC2-808E-7BC5A58B1240}"
+	ProjectSection(SolutionItems) = preProject
+		_Shaders\Tile\VertexTile.hlsl = _Shaders\Tile\VertexTile.hlsl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Debug|x64.ActiveCfg = Debug|Win32
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Debug|x64.Build.0 = Debug|Win32
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Debug|x86.Build.0 = Debug|Win32
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Release|x64.ActiveCfg = Release|x64
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Release|x64.Build.0 = Release|x64
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Release|x86.ActiveCfg = Release|Win32
+		{BD7C5D97-DA38-4E99-BB47-52EF1DA335B3}.Release|x86.Build.0 = Release|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Debug|x64.ActiveCfg = Debug|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Debug|x64.Build.0 = Debug|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Debug|x86.ActiveCfg = Debug|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Debug|x86.Build.0 = Debug|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Release|x64.ActiveCfg = Release|x64
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Release|x64.Build.0 = Release|x64
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Release|x86.ActiveCfg = Release|Win32
+		{43815D25-7089-404B-BB9C-F070BC11BC6E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30AD4797-0049-47B7-AC92-DD9BA5BB66E1} = {223F6217-423E-4D5B-82C8-1FD31522502D}
+		{05891E83-0198-4CC2-808E-7BC5A58B1240} = {223F6217-423E-4D5B-82C8-1FD31522502D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D4ED3D-CEFA-42A1-911B-B5F0E2FF39F4}
+	EndGlobalSection
+EndGlobal

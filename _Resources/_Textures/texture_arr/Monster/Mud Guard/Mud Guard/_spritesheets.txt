@@ -1,0 +1,6 @@
+at1.png,82,23,7
+at2.png,82,23,7
+dam.png,82,23,4
+die.png,82,23,8
+idle_sheet.png,82,23,5
+run_sheet.png,82,23,6

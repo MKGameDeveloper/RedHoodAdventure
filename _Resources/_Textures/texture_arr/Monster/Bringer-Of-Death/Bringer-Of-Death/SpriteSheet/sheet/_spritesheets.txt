@@ -1,0 +1,7 @@
+bringer_atk_s.png,140,93,10
+bringer_cast.png,140,93,9
+bringer_damaged.png,140,93,3
+bringer_die.png,140,93,10
+bringer_idle.png,140,93,8
+bringer_spell.png,140,93,16
+bringer_walk.png,140,93,8

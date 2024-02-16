@@ -1,0 +1,4 @@
+bombSheet.png,116,77,18
+dieSheet.png,116,77,11
+idleSheet.png,116,77,6
+moveSheet.png,116,77,8
