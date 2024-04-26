@@ -12,6 +12,7 @@ YouTube Link
 협업 유무 : X
 
 [담당 구현 기술]
+
 	물리현상을 담당하는 Component RigidBody 구현
 : Character 헤더파일에 Default로 RigidBody를 등록하여 Floor 객체들과 Character간의 물리 충돌을 미리 감지하여 충돌 Floor 타입에 따라 행동에 제약 또는 추가적인 행동을 부여해주는 역할을 수행.
 
