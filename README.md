@@ -3,8 +3,8 @@ DirectX2D (C++)
 RedHood Adventure 2023 04 ~ 2023 05 작업
 
 YouTube Link
-([https://youtu.be/uLR1RNqJ1Mw?t=0s](https://youtu.be/FsSdehTIjFk?si=XzOhaMT4AY3fVYdY)https://youtu.be/FsSdehTIjFk?si=XzOhaMT4AY3fVYdY)
-
+(https://youtu.be/UKIUMnVwMYA?si=-beGDI6APLU8HxYu)
+[https://youtu.be/uLR1RNqJ1Mw?t=0s](https://youtu.be/FsSdehTIjFk?si=XzOhaMT4AY3fVYdY)https://youtu.be/FsSdehTIjFk?si=XzOhaMT4AY3fVYdY
 프로젝트명: RedHood Adventure (2023.04 – 2023.06)
 
 장르: Adventure RPG
