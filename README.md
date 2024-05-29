@@ -7,8 +7,12 @@ YouTube Link : https://youtu.be/UKIUMnVwMYA?si=-beGDI6APLU8HxYu
 프로젝트명: RedHood Adventure
 
 장르: Adventure
+
 사용 엔진: Graphics :: DirecetX (C++)
+
 협업 유무 : X
+
+================================================================
 
 **[담당 구현 기술]**
 
